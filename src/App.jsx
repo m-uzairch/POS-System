@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home, Auth, Orders } from './pages';
-import Header from './components//shared/Header';
+import Header from './components/shared/Header';
 
 function App() {
   
