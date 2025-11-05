@@ -12,7 +12,7 @@ function home() {
       <div className='flex-[2] bg-[#1a1a1a]'>
 
       </div>
-      <BottonName />
+      <BottomNav />
     </section>
   )
 }
