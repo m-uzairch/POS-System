@@ -8,7 +8,7 @@ import { BiSolidDish } from "react-icons/bi";
 const BottomNav = () => {
   return (
     <div className='fixed bottom-0 left-0 right-0 bg-[#262626] p-2 h-16 flex justify-around'>
-      <button className='flex items-center justify-center text-[#f5f5f5] bg-[#343434] w-[200px] rounded-[20px]'><FaHome className="inline mr-2 size={20} cursor-pointer" />
+      <button className='flex items-center justify-center text-[#f5f5f5] bg-[#343434] w-[200px] rounded-[20px] cursor-pointer'><FaHome className="inline mr-2 size={20} cursor-pointer" />
       <p>Home</p>
       </button>
       <button className='flex items-center justify-center text-[#ababab] w-[200px] cursor-pointer'><MdOutlineReorder className="inline mr-2 size={20 }" />
@@ -21,7 +21,7 @@ const BottomNav = () => {
       <p>More</p>
       </button>
 
-      <button className='absolute bottom-6 bg-[#f6b100] text-[#f5f5f5] rounded-full p-3 items-center'>
+      <button className='absolute bottom-6 bg-[#f6b100] text-[#f5f5f5] rounded-full p-3 items-center cursor-pointer'>
         <BiSolidDish size={30}/>
       </button>
     </div>
