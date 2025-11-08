@@ -24,8 +24,8 @@ const Greetings = () => {
         <p className='text-[#ababab] text-sm'>Giv your best servoces for customers 😃</p>
       </div>
       <div>
-        <h1>{formatTime(dateTime)}</h1>
-        <p>{foramtDate(dateTime)}</p>
+        <h1 className='text-[#f5f5f5] text-3xl font-bold tracking-wide w-130px'>{formatTime(dateTime)}</h1>
+        <p className='text-[#ababab] text-sm'>{foramtDate(dateTime)}</p>
       </div>
     </div>
   )

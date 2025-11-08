@@ -8,6 +8,7 @@ function home() {
       {/* Left Div */}
       <div className="flex-3">
         <Greetings />
+        
       </div>
       {/* Right Div */}
       <div className="flex-2 bg-[#0015ff]"></div>
